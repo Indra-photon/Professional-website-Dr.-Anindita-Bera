@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0465a0;
+    color: white;
+    box-shadow: 2px 2px 5px #0465a0;
+    height: 80px;
+    /* width: 100%; */
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 30px;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    font-size: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
+.address{
+    background-color: aliceblue;
+    height: 200px;
+    width: 600px;
+    border: #0465a0 solid;
+    border-radius: 10px;
+}
+.details p{
+    margin-bottom: 20px;
+}
